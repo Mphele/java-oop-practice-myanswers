@@ -2,10 +2,20 @@ package com.practice;
 
 public class Person {
 
-        // TODO: add private field
+    private String name;
 
-        // TODO: implement setter
 
-        // TODO: implement getter
+    public Person(){
 
+        this.name = name;
+
+       }
+
+       public String getName(){
+        return this.name;
+       }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
