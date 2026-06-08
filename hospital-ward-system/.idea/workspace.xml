@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88cb1b24-c250-4c75-b004-afc9aa1ce86a" name="Changes" comment="90 % of tests passing">
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/service/Ward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/service/Ward.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mphele&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mphele/java-oop-practice-myanswers.git&quot;,
+    &quot;accountId&quot;: &quot;8adfc60f-05b0-47e7-9895-3dffad565b1d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3DvyGKQcctm2sI9NLUsekphNFBc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TestAppointment.executor": "Run",
+    "JUnit.TestMedicalRecord.executor": "Run",
+    "JUnit.TestPatient.executor": "Run",
+    "JUnit.TestWard.appointmentQueue_returnsUnmodifiableView.executor": "Run",
+    "JUnit.TestWard.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mphel/Documents/School/Java/java-oop-practice-myanswers/hospital-ward-system"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TestWard">
+    <configuration name="TestAppointment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hospital-ward-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.TestAppointment" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMedicalRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hospital-ward-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.TestMedicalRecord" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPatient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hospital-ward-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.TestPatient" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hospital-ward-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.TestWard" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWard.appointmentQueue_returnsUnmodifiableView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hospital-ward-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.TestWard" />
+      <option name="METHOD_NAME" value="appointmentQueue_returnsUnmodifiableView" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestWard" />
+        <item itemvalue="JUnit.TestWard.appointmentQueue_returnsUnmodifiableView" />
+        <item itemvalue="JUnit.TestAppointment" />
+        <item itemvalue="JUnit.TestMedicalRecord" />
+        <item itemvalue="JUnit.TestPatient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88cb1b24-c250-4c75-b004-afc9aa1ce86a" name="Changes" comment="" />
+      <created>1779176740763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779176740763</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Patient class tests passing">
+      <option name="closed" value="true" />
+      <created>1779294608032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779294608032</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Medical Record tests passing">
+      <option name="closed" value="true" />
+      <created>1779296429034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779296429034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Appointment tests passing">
+      <option name="closed" value="true" />
+      <created>1779298482990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779298482990</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Billable interface made">
+      <option name="closed" value="true" />
+      <created>1779299264231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779299264232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ward class  made">
+      <option name="closed" value="true" />
+      <created>1779303182757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779303182757</updated>
+    </task>
+    <task id="LOCAL-00006" summary="90 % of tests passing">
+      <option name="closed" value="true" />
+      <created>1779303803499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779303803499</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Patient class tests passing" />
+    <MESSAGE value="Medical Record tests passing" />
+    <MESSAGE value="Appointment tests passing" />
+    <MESSAGE value="Billable interface made" />
+    <MESSAGE value="Ward class  made" />
+    <MESSAGE value="90 % of tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="90 % of tests passing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/za/co/wethinkcode/TestAppointment.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

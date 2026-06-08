@@ -3,10 +3,7 @@ package za.co.wethinkcode.service;
 import za.co.wethinkcode.model.Appointment;
 import za.co.wethinkcode.model.Patient;
 
-import java.util.List;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.ArrayList;
+import java.util.*;
 
 public abstract class Ward {
 
@@ -54,7 +51,7 @@ public abstract class Ward {
     }
 
     public Map<String, Patient> getAllPatients() {
-        return new HashMap<>(patients);
+        return Collections.unmodifiableMap(patients);
     }
 
     public Appointment scheduleAppointment(String patientId, String doctorName){
@@ -67,7 +64,7 @@ public abstract class Ward {
     }
 
 
-    public Appointment proccessNextAppointment(){
+    public Appointment processNextAppointment(){
 
         for (Appointment appointment: appointmentQueue){
             if (appointment.status()== Appointment.AppointmentStatus.SCHEDULED){
@@ -83,7 +80,7 @@ public abstract class Ward {
     }
 
     public List<Appointment> appointmentQueue(){
-        return new ArrayList<>(appointmentQueue);
+        return Collections.unmodifiableList(appointmentQueue);
     }
 
     public String wardName() {

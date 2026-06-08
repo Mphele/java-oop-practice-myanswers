@@ -1,0 +1,8 @@
+za\co\wethinkcode\service\Billable.class
+za\co\wethinkcode\service\Ward.class
+za\co\wethinkcode\model\Appointment$AppointmentStatus.class
+za\co\wethinkcode\model\Appointment.class
+za\co\wethinkcode\model\Patient.class
+za\co\wethinkcode\service\GeneralWard.class
+za\co\wethinkcode\model\MedicalRecord.class
+za\co\wethinkcode\service\ICU.class
