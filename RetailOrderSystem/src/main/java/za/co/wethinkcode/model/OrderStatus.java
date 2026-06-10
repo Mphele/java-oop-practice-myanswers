@@ -1,4 +1,11 @@
 package za.co.wethinkcode.model;
 
-public class OrderStatus {
+public enum OrderStatus {
+
+    NEW,
+    PROCESSING,
+    SHIPPED,
+    DELIVERED
+
+
 }
