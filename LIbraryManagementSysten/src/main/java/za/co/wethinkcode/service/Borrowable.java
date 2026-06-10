@@ -1,4 +1,4 @@
 package za.co.wethinkcode.service;
 
-public class Borrowable {
+public interface Borrowable {
 }
