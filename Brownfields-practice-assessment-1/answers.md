@@ -27,7 +27,8 @@ being a double cab or not is not something that can realistically be changed, it
 aspects of another class and is defined as a "is-a" kind of relationship, for example car inherits from vehicle because a car is a vehicle. The relationship between RentalAgency and Vehicle
 is an example of composition as the RentalAgency interacts with multiple vehicle objects and adds them to it's fleet.
 
-6. ```java
+6. 
+```java
 
     public class Motorbike extends Vehicle{
     
@@ -54,4 +55,43 @@ is an example of composition as the RentalAgency interacts with multiple vehicle
     }
 
 ```
+
+
+## Section B — Testing Theory (20%)
+
+1. ( i have never heard of this so my answer is a contextual guess) the testing pyramid hightlights the 5 different test types within the programming paradigm. 
+unit tests sit at the bottom as they are the most essential and the backbone of countinous development. Intergration tests in the middle as they are the next 
+step within the dev process and ensure your program works when tested live. Then end to end testing sits at the top 
+
+2. In this context arrange entails the act of creating the test instance of rentalagency , as we need an instance of this class to see the behavior, this is what
+are arranging. The act after that would be calling the book method on the test instance that we created. We then assert the fact that the response we receive from
+the book method when trying to book an unavailable vehicle is an illegalargumentexception. 
+
+3. A mock is a type of test where a certain situation or scenario is simulated in order to test an aspect of code behavior. A stub is an actual small piece of code 
+that is already existent in the codebase to see it's functionality . Where you'd use a mocking for the rental system is mocking an email server . You do not want to
+run an actual instance of the server when you test as that will be computationally expensive and put unnecessary strain on the server so you would have a mock server 
+in your test and simulate the actual server's behavior to test the functionality of your code against the server
+
+4. Code coverage refers to the percentage of classes and methods that have been tested. Even though you have 100% test coverage you could still easily have bugs as the 
+coverage does not translate to the depth of testing. You could have a test for every class and method but not be testing for very specfic edge cases which results in bugs.
+
+5. Red is what you should see when you run your test the first time. It should be a purposefully incorrect outcome of the test that ensures your test does infact interact 
+with the code and does infact fail when it returns behavior you do not want. The next step (green) is when you now write a test that returns a value you know is going to definitely
+pass. This is to ensure that your code does in fact interact with the test and that the correct response passes . Refactor is now when you write a test that asserts your actual code logic,
+you know now that the test fails when it receives the wrong output and passes when it receives the right output is given. So when you refactor the test to work on your actual logic you can
+trust the feedback.
+
+6. I have no idea
+
+7. .
+
+```java
+
+    @Test
+    void unavailableBooking(){
+    assertThrows(IllegalArgumentException,agency.book("REG123", "John", 3));
+    }
+    
+```
+
 
