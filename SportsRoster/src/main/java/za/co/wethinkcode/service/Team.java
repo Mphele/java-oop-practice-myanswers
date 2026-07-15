@@ -33,7 +33,7 @@ public class Team {
         return maxSquadSize;
     }
 
-    public List<Player> geAllPlayers() {
+    public List<Player> getAllPlayers() {
         return new ArrayList<>(roster);
     }
 
@@ -47,7 +47,7 @@ public class Team {
         }
 
         for(Player player1: roster){
-            if (player==player1){
+            if (player.getJerseyNUmber()==player1.getJerseyNUmber()){
                 throw new IllegalArgumentException();
             }
         }

@@ -95,3 +95,24 @@ trust the feedback.
 ```
 
 
+## Section C — Brownfields Development (20%)
+
+1. Technical debt is the term given to the build up of issues created by poorly designed code as the codebase continues to grow.
+Two examples of techincal debt from the described rentalagency class is for one the fact that it has no test suite, this means 
+that the code has been written without being rigoursly tested for correct functionality and/oredge cases. The team could
+be building on top of broken code that's technical debt. The class has also become too large and breaks the seperation of concern
+rule. Adding anything or refactoring on this class is now risky and tedious as it is in charge of doing way too many pieces of the
+puzzle. This is poor design that causes technical debt
+
+2. A characterization test is a type of test you first create within a legacy codebase to find out what specific classes/methods actually
+do before you can test their expected behavior.This is recommended to be done first so you are aware of the type of system you are working
+with and what it's meant to do before you start trying to see if specific pieces of it do what you expect them to.
+3. not sure 
+4. Failure to seperate concerns. This class is doing way too many tasks and as a result has become too convoluted. Too long. The class having 
+400 lines means it is too long and hard to contextualize/refactor when necessary 
+
+5. I am not sure what this refactoring practice is called but it is important to make sure your refactoring is backwards compatible as the code 
+you are refactoring does not exist on it's own. It exists within a system and other classes and/or methods are dependent on it's functionality 
+and they were written expecting very specific functionality from the code, so your refactor must consider all this. 
+
+6.we have not learnt dependency injection at school but i am interested in seeing the implementation and getting an explanation so i become familiar
